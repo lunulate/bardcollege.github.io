@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(25, 25, 112);
+    background-color: rgb(0, 0, 102);
     color: linen;
     font-size: 150%;
     line-height: 1.4;
@@ -25,7 +25,7 @@ h2{
 }
 
 a {
-    color: rgb(50, 118, 63);
+    color: rgb(51, 255, 153);
     text-decoration: none;
 }
 
