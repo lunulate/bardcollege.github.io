@@ -4,11 +4,11 @@
  * L&T quote generator
  */
 
-var things = ["Music", "Art", "Dance", "Theater", "Math", "Architecture"];
-var programmers = ["musician", "artist", "choreographer", "director", "mathematician", "architect"]
+var things = ["Music", "Art", "Dance", "Theater", "Pterodactyl", "Architecture"];
+var programmers = ["musician", "artist", "choreographer", "director", "dinosaur", "architect"]
 var castles = ["museums", "bridges", "cities"]
-var exertions = ["effort", "strain", "struggle", "toil", "endeavor", "hard work", "labor"];
-var airs = ["sky", "atmosphere", "heavens", "ether", "wind"];
+var exertions = ["effort", "strain", "struggle", "toil", "endeavor", "hard work", "screeching"];
+var airs = ["sky", "SPACE", "heavens", "ether", "wind"];
 
 function choosei(lst){
     var i = Math.floor(Math.random() * lst.length);
@@ -41,7 +41,7 @@ q.innerHTML += "<br><br><br>";
 
 
 var is = ["is", "is not", "is like", "includes", "excludes", "is beyond",
-	  "extends", "encodes", "represents", "signifies", "consists of"];
+	  "extends", "scratches out messages in the dirt", "represents", "signifies", "consists of"];
 
 for (var i = 0; i < is.length; i = i + 1){
     q.innerHTML += "Code " + is[i] + " language. <br>";
